@@ -94,9 +94,24 @@ textarea {
   padding: 0.2em 0;
 }
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+/* universal styles */
+body {
+  background: #FFC9B9;
+  color: #4C956C; 
+  font-family: 'Raleway', sans-serif;
+}
+.content-wrapper {
+  margin: 20px; /* adds a wrapper around our content */
+}
+header .content-wrapper {
+  display: flex; /* turn our content wrapper into a flex container, taking advantage of the default flex-direction: row, which causes items to align side by side */ 
+  justify-content: space-between;
+  align-items: center;
+}
+.hide-menu {
+  display: none; /* hide navigation menu by default */
+}
+
 
 /* ==========================================================================
    Helper classes
