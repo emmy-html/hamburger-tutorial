@@ -111,8 +111,17 @@ header .content-wrapper {
 .hide-menu {
   display: none; /* hide navigation menu by default */
 }
-
-
+.fade-in {
+  animation: fadeIn .5s 1;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
